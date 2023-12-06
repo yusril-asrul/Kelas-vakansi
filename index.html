@@ -49,17 +49,17 @@
                 <div class="fs-24 lh-normal ms-1 lav text-primary">KELAS<br>VAKANSI</div>
             </a>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Destination</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#destination">Destination</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Header -->
-    <section class="header-section d-flex flex-column justify-content-center" style="background-image: url('/images/Hero.png');">
+    <section id="home" class="header-section d-flex flex-column justify-content-center" style="background-image: url('/images/Hero.png');">
         <div class="text-center text-white toBottom">
             <p>#Create<b>your</b>experiencewithus</p>
             <div><img src="/images/arrow-bottom.svg"></div>
@@ -84,7 +84,7 @@
 
 
     <!-- About -->
-    <section class="m-section">
+    <section class="m-section" id="about">
         <div class="container">
             <div class="row mb-70">
                 <div class="col-md-12 text-center">
@@ -130,7 +130,7 @@
 
 
     <!-- Services -->
-    <section class="m-section">
+    <section class="m-section" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -257,7 +257,7 @@
 
 
     <!-- Destination -->
-    <section class="m-section">
+    <section class="m-section" id="destination">
         <div class="px-lg-5">
             <div class="container-fluid">
                 <div class="row">
@@ -492,7 +492,7 @@
 
 
     <!-- Blog -->
-    <section class="m-section">
+    <section class="m-section" id="blog">
         <div class="container">
             <div class="row mb-35">
                 <div class="col-md-12 text-center">
@@ -503,11 +503,11 @@
 
             <div class="row justify-content-center">
                 <div class="col-1 center-column">
-                    <div class="prev-blog">
+                    <a href="#" class="prev-blog">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path d="M20.4671 5.52618C20.636 5.69189 20.77 5.88872 20.8615 6.10541C20.9529 6.3221 21 6.55438 21 6.78897C21 7.02356 20.9529 7.25584 20.8615 7.47253C20.77 7.68922 20.636 7.88605 20.4671 8.05176L13.3963 15.0016L20.4671 21.9514C20.8078 22.2863 20.9992 22.7405 20.9992 23.2141C20.9992 23.6878 20.8078 24.142 20.4671 24.4769C20.1263 24.8119 19.6642 25 19.1823 25C18.7004 25 18.2383 24.8119 17.8975 24.4769L9.53294 16.2554C9.364 16.0897 9.22997 15.8928 9.13852 15.6762C9.04707 15.4595 9 15.2272 9 14.9926C9 14.758 9.04707 14.5257 9.13852 14.309C9.22997 14.0924 9.364 13.8955 9.53294 13.7298L17.8975 5.50827C18.59 4.82762 19.7563 4.82762 20.4671 5.52618Z" fill="#222222"/>
                             </svg>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-10">
                     <div class="owl-carousel owl-blog owl-theme">
@@ -594,11 +594,11 @@
                     </div>
                 </div>
                 <div class="col-1 center-column">
-                    <div class="next-blog">
+                    <a class="next-blog">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                             <path d="M9.53294 5.52618C9.364 5.69189 9.22997 5.88872 9.13852 6.10541C9.04707 6.3221 9 6.55438 9 6.78897C9 7.02356 9.04707 7.25584 9.13852 7.47253C9.22997 7.68922 9.364 7.88605 9.53294 8.05176L16.6037 15.0016L9.53294 21.9514C9.1922 22.2863 9.00077 22.7405 9.00077 23.2141C9.00077 23.6878 9.1922 24.142 9.53294 24.4769C9.87368 24.8119 10.3358 25 10.8177 25C11.2996 25 11.7617 24.8119 12.1025 24.4769L20.4671 16.2554C20.636 16.0897 20.77 15.8928 20.8615 15.6762C20.9529 15.4595 21 15.2272 21 14.9926C21 14.758 20.9529 14.5257 20.8615 14.309C20.77 14.0924 20.636 13.8955 20.4671 13.7298L12.1025 5.50827C11.41 4.82762 10.2437 4.82762 9.53294 5.52618Z" fill="#222222"/>
                           </svg>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -609,6 +609,262 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+    <!-- Testimoni -->
+    <section class="m-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-12 text-center">
+                    <div class="sub-title">Testimonials</div>
+                    <div class="title">Our <span class="text-primary">Client say as</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-testimoni owl-theme">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-6 mb-3 mb-lg-0">
+                                    <div class="row justify-content-center">
+                                        <div class="col-9">
+                                            <img src="/images/testimoni.png" class="w-full shadow rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-9">
+                                            <div class="d-flex align-items-center mb-5">
+                                                <img src="/images/trees.png" alt="" class="me-3" style="width: 30px !important;">
+                                                <div class="text-16 lav">Labengki</div>
+                                            </div>
+                                            <div class="testimoni">
+                                                “ <br>
+                                                It’s amazing Everything went so well and the trip was really really beautiful 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <div class="d-flex align-items-center">
+                                                <div><img src="/images/testimoni.png" class="img-testi"></div>
+                                                <div class="name-testi">Mattias ( France )</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mb-4">
+                            <div class="row">
+                                <div class="col-md-6 mb-3 mb-lg-0">
+                                    <div class="row justify-content-center">
+                                        <div class="col-9">
+                                            <img src="/images/testimoni.png" class="w-full shadow rounded">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="row mb-4">
+                                        <div class="col-lg-9">
+                                            <div class="d-flex align-items-center mb-5">
+                                                <img src="/images/trees.png" alt="" class="me-3" style="width: 30px !important;">
+                                                <div class="text-16 lav">Labengki</div>
+                                            </div>
+                                            <div class="testimoni">
+                                                “ <br>
+                                                It’s amazing Everything went so well and the trip was really really beautiful 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <div class="d-flex align-items-center">
+                                                <div><img src="/images/testimoni.png" class="img-testi"></div>
+                                                <div class="name-testi">Mattias ( France )</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- instagram -->
+    <section class="m-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-11">
+                    <div class="row">
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="ig">
+                                <div class="onActive">
+                                    <img src="/images/ig-feed.svg" width="80px" class="mb-2">
+                                    <div>
+                                        <a href="" class="btn btn-primary px-5">Explore Place</a>
+                                    </div>
+                                </div>  
+                                <img src="/images/ig-feed.svg" class="feed">
+                                <img src="/images/ig3.png" class="w-full">
+                                <div class="profile">
+                                    <img src="/images/img-pofile.svg">
+                                    <div>
+                                        <div class="title-ig">Kelasvakansi</div>
+                                        <div class="sub">Instagram</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="ig">
+                                <div class="onActive">
+                                    <img src="/images/ig-feed.svg" width="80px" class="mb-2">
+                                    <div>
+                                        <a href="" class="btn btn-primary px-5">Explore Place</a>
+                                    </div>
+                                </div>  
+                                <img src="/images/ig-feed.svg" class="feed">
+                                <img src="/images/ig2.png" class="w-full">
+                                <div class="profile">
+                                    <img src="/images/img-pofile.svg">
+                                    <div>
+                                        <div class="title-ig">Kelasvakansi</div>
+                                        <div class="sub">Instagram</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="ig">
+                                <div class="onActive">
+                                    <img src="/images/ig-feed.svg" width="80px" class="mb-2">
+                                    <div>
+                                        <a href="" class="btn btn-primary px-5">Explore Place</a>
+                                    </div>
+                                </div>  
+                                <img src="/images/ig-feed.svg" class="feed">
+                                <img src="/images/ig1.png" class="w-full">
+                                <div class="profile">
+                                    <img src="/images/img-pofile.svg">
+                                    <div>
+                                        <div class="title-ig">Kelasvakansi</div>
+                                        <div class="sub">Instagram</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <section class="footer" style="background-image: url('/images/footer.png');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title-logo">Kelas Vakansi</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="info-footer">To be the best and most trusted travel agent number 1 in eastern Indonesia</div>
+                    <div class="address">Jl. Syech Yusuf No.31, Korumba, Kec. Madonga, Kota Kendari, Sulawesi Tenggara 9311</div>
+                    <div class="medsos mb-3">
+                        <a href="#" class="me-2"><img src="/images/ig.svg" alt="Intagram"></a>
+                        <a href="#" class="me-2"><img src="/images/fb.svg" alt="Facebook"></a>
+                        <a href="#" class="me-2"><img src="/images/yt.svg" alt="Youtube"></a>
+                    </div>
+                    <a href="" class="btn btn-primary btn-lg mb-5 px-5">Book Now</a>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="title-link-footer">Link Page</div>
+                            <a href="#home" class="link">Home</a>
+                            <a href="#about" class="link">About</a>
+                            <a href="#services" class="link">Services</a>
+                            <a href="#destination" class="link">Destination</a>
+                            <a href="#blog" class="link">Blog</a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="title-link-footer">Contact</div>
+                            
+                            <a href="" class="link d-flex align-items-center"> <span class="me-3"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <path d="M16.25 23.75C16.25 23.325 16.3 22.9125 16.3625 22.5H5V10L15 16.25L25 10V16.3625C25.9 16.5125 26.7375 16.825 27.5 17.2625V7.5C27.5 6.125 26.375 5 25 5H5C3.625 5 2.5 6.125 2.5 7.5V22.5C2.5 23.875 3.625 25 5 25H16.3625C16.3 24.5875 16.25 24.175 16.25 23.75ZM25 7.5L15 13.75L5 7.5H25ZM25 18.75V22.5H28.75V25H25V28.75H22.5V25H18.75V22.5H22.5V18.75H25Z" fill="#DFB465"/>
+                                </svg></span> Kelasvakansi@gmail.com</a>
+                                <br>
+                            <a href="" class="link d-flex align-items-center"> <span class="me-3"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                <g clip-path="url(#clip0_224_482)">
+                                <path d="M6.85116 2.49006C6.74047 2.34768 6.60075 2.23047 6.44129 2.14624C6.28182 2.062 6.10626 2.01265 5.92625 2.00148C5.74625 1.99031 5.56593 2.01756 5.39727 2.08144C5.22862 2.14531 5.07548 2.24434 4.94803 2.37194L3.00928 4.31256C2.10366 5.22007 1.76991 6.50444 2.16553 7.63132C3.80754 12.2955 6.47858 16.5302 9.98053 20.0213C13.4716 23.5232 17.7063 26.1942 22.3705 27.8363C23.4974 28.2319 24.7818 27.8982 25.6893 26.9926L27.628 25.0538C27.7556 24.9264 27.8547 24.7732 27.9185 24.6046C27.9824 24.4359 28.0097 24.2556 27.9985 24.0756C27.9873 23.8956 27.938 23.72 27.8537 23.5606C27.7695 23.4011 27.6523 23.2614 27.5099 23.1507L23.1843 19.7869C23.0322 19.669 22.8552 19.5871 22.6669 19.5474C22.4785 19.5078 22.2835 19.5115 22.0968 19.5582L17.9905 20.5838C17.4424 20.7208 16.8682 20.7135 16.3237 20.5627C15.7793 20.4119 15.2832 20.1227 14.8837 19.7232L10.2787 15.1163C9.87885 14.717 9.58927 14.221 9.43812 13.6765C9.28697 13.132 9.2794 12.5577 9.41616 12.0094L10.4437 7.90319C10.4904 7.71643 10.494 7.52151 10.4544 7.33312C10.4148 7.14473 10.3329 6.96781 10.2149 6.81569L6.85116 2.49006ZM3.53241 0.95819C3.86052 0.62997 4.25471 0.375309 4.68879 0.211117C5.12288 0.046925 5.58692 -0.0230412 6.05012 0.00586429C6.51332 0.0347698 6.96507 0.161886 7.37537 0.378771C7.78567 0.595657 8.14514 0.897349 8.42991 1.26381L11.7937 5.58756C12.4105 6.38069 12.628 7.41382 12.3843 8.38882L11.3587 12.4951C11.3056 12.7077 11.3085 12.9305 11.367 13.1418C11.4255 13.353 11.5376 13.5456 11.6924 13.7007L16.2993 18.3076C16.4546 18.4627 16.6475 18.575 16.8591 18.6335C17.0707 18.692 17.2938 18.6947 17.5068 18.6413L21.6112 17.6157C22.0923 17.4954 22.5945 17.486 23.0798 17.5884C23.5651 17.6907 24.0208 17.902 24.4124 18.2063L28.7362 21.5701C30.2905 22.7794 30.433 25.0763 29.0418 26.4657L27.103 28.4044C25.7155 29.7919 23.6418 30.4013 21.7087 29.7207C16.7609 27.9798 12.2685 25.1473 8.56491 21.4332C4.85107 17.7301 2.01855 13.2384 0.277406 8.29132C-0.401344 6.36007 0.208031 4.28444 1.59553 2.89694L3.53428 0.95819H3.53241Z" fill="#DFB465"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.4375 1.875C23.6861 1.875 23.9246 1.97377 24.1004 2.14959C24.2762 2.3254 24.375 2.56386 24.375 2.8125V5.625H27.1875C27.4361 5.625 27.6746 5.72377 27.8504 5.89959C28.0262 6.0754 28.125 6.31386 28.125 6.5625C28.125 6.81114 28.0262 7.0496 27.8504 7.22541C27.6746 7.40123 27.4361 7.5 27.1875 7.5H24.375V10.3125C24.375 10.5611 24.2762 10.7996 24.1004 10.9754C23.9246 11.1512 23.6861 11.25 23.4375 11.25C23.1889 11.25 22.9504 11.1512 22.7746 10.9754C22.5988 10.7996 22.5 10.5611 22.5 10.3125V7.5H19.6875C19.4389 7.5 19.2004 7.40123 19.0246 7.22541C18.8488 7.0496 18.75 6.81114 18.75 6.5625C18.75 6.31386 18.8488 6.0754 19.0246 5.89959C19.2004 5.72377 19.4389 5.625 19.6875 5.625H22.5V2.8125C22.5 2.56386 22.5988 2.3254 22.7746 2.14959C22.9504 1.97377 23.1889 1.875 23.4375 1.875Z" fill="#DFB465"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_224_482">
+                                <rect width="30" height="30" fill="white"/>
+                                </clipPath>
+                                </defs>
+                                </svg></span> 08134-4340-6633</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center text-white mb-4 ssp-light fs-14">
+                        Kelas Vakansi | Copyright 2023, All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 
@@ -658,6 +914,25 @@
                     items: 3
                 }
             }
+        })
+        
+        var owltestimoni = $('.owl-testimoni');
+        owltestimoni.owlCarousel({
+            // margin: 40,
+            nav: true,
+            loop: true,
+            navText : [`<button class="btn btn-primary rounded-circle px-2" id="prevCarousel">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M15 1.66659L5 9.99992L15 18.3333L15 1.66659Z" fill="white"/>
+                                            </svg>
+                                    </button>`,`
+                                    <button class="btn btn-primary rounded-circle px-2 ms-3" id="nextCarousel">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M9 18.3334L19 10.0001L9 1.66675V18.3334Z" fill="white"/>
+                                            </svg>
+                                    </button>`],
+            dots:false,
+            items: 1
         })
 
         $("#nextCarousel").click(()=>{

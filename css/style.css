@@ -261,6 +261,13 @@ letter-spacing: 0.8px;
     letter-spacing: 1.2px;
 }
 
+.testimoni {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+letter-spacing: 0.9px;
+}
+
 .text-16 {
     font-size: 16px;
 }
@@ -560,6 +567,9 @@ margin-bottom: 16px;
 .fs-14 {
     font-size: 14px;
 }
+.fs-16 {
+    font-size: 16px;
+}
 
 .prev-blog,
 .next-blog {
@@ -577,6 +587,164 @@ margin-bottom: 16px;
     font-weight: 300;
     line-height: normal;
     margin-bottom: 15px;
+}
+
+.name-testi {
+    color: #000;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: italic;
+font-weight: 600;
+line-height: 130%; /* 20.8px */
+letter-spacing: 0.8px;
+}
+
+.img-testi {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #86979100;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.ig {
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.ig .feed {
+    position: absolute;
+    width: 45px;
+    top: 25px;
+    transition: .3s;
+    left: 25px;
+}
+
+.ig .profile  {
+    position: absolute;
+    bottom: 0;
+    transition: .3s;
+    padding: 25px;
+    left: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.ig .profile img {
+    width: 35px;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.ig .title-ig {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 18.2px */
+    letter-spacing: 0.7px;
+}
+
+.ig:hover > .feed, .ig:hover .profile {
+   opacity: 0;
+}
+
+.ig .sub {
+        color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 15.6px */
+    letter-spacing: 0.6px;
+}
+
+.ig .onActive {
+    position: absolute;
+    transition: .3s;
+    opacity: 0;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000088;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ig:hover .onActive {
+    opacity: 1;
+}
+
+.footer {
+    padding-top: 60px;
+    background-size: cover;
+    background-position: center;
+}
+
+.title-logo {
+    color: #FFF;
+    font-family: Laviossa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 46.8px */
+    letter-spacing: 1.8px;
+    margin-bottom: 10px;
+}
+
+.info-footer {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 0.9px;
+    margin-bottom: 35px;
+    max-width: 404px;
+}
+
+.footer .address {
+    color: #FFF;
+    max-width: 404px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.title-link-footer {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.footer .link {
+    color: #FFF;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 0.8px;
+    text-decoration: none;
 }
 
 
