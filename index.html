@@ -273,12 +273,12 @@
                                         </svg>
                                     Download Price List
                                 </button>
-                                <button class="btn btn-primary rounded-circle px-2">
+                                <button class="btn btn-primary rounded-circle px-2" id="prevCarousel">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M15 1.66659L5 9.99992L15 18.3333L15 1.66659Z" fill="white"/>
                                         </svg>
                                 </button>
-                                <button class="btn btn-primary rounded-circle px-2 ms-3">
+                                <button class="btn btn-primary rounded-circle px-2 ms-3" id="nextCarousel">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <path d="M9 18.3334L19 10.0001L9 1.66675V18.3334Z" fill="white"/>
                                         </svg>
@@ -345,7 +345,8 @@
         owl.owlCarousel({
             // margin: 40,
             nav: false,
-            loop: false,
+            loop: true,
+            dots:false,
             responsive: {
                 0: {
                     items: 1
@@ -357,6 +358,13 @@
                     items: 3
                 }
             }
+        })
+
+        $("#nextCarousel").click(()=>{
+            $(".owl-carousel").trigger('next.owl.carousel')
+        })
+        $("#prevCarousel").click(()=>{
+            $(".owl-carousel").trigger('prev.owl.carousel')
         })
     </script>
   </body>
