@@ -116,7 +116,7 @@
     margin-right: 10px;
 }
 .header-section{
-    min-height: 700px;
+    min-height: 750px;
     background-color: #555;
     background-size: cover;
     background-position: center;
@@ -146,6 +146,8 @@
     line-height: normal;
     margin-bottom: 15px;
 }
+
+
 
 .header-section .title2 {
     color: rgba(255, 255, 255, 0.60);
