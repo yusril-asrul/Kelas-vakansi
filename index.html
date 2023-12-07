@@ -17,13 +17,17 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="d-none d-lg-flex navbar navbar-expand-lg navbar-dark bg-dark flex-column justify-content-center">
+    <nav class="navbar responsive navbar-expand-lg navbar-dark bg-dark flex-column justify-content-center">
+        <div class="nav-close"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <path d="M27.2336 15.5365C27.3937 15.3872 27.5228 15.2079 27.6136 15.0087C27.7044 14.8095 27.7551 14.5944 27.7628 14.3757C27.7704 14.1569 27.7349 13.9388 27.6583 13.7337C27.5816 13.5287 27.4654 13.3408 27.3161 13.1807C27.1668 13.0206 26.9875 12.8914 26.7883 12.8006C26.5891 12.7098 26.374 12.6592 26.1553 12.6515C25.9365 12.6439 25.7184 12.6794 25.5133 12.756C25.3083 12.8326 25.1204 12.9489 24.9603 13.0982L20.0836 17.6448L15.5369 12.7665C15.2327 12.4549 14.8186 12.2748 14.3833 12.2646C13.9479 12.2545 13.5259 12.4151 13.2074 12.7122C12.889 13.0093 12.6995 13.4192 12.6795 13.8542C12.6595 14.2892 12.8105 14.7148 13.1003 15.0398L17.6469 19.9165L12.7686 24.4632C12.6028 24.6109 12.4683 24.7903 12.3728 24.9908C12.2774 25.1913 12.2229 25.4088 12.2127 25.6306C12.2025 25.8525 12.2367 26.0741 12.3133 26.2825C12.39 26.4909 12.5075 26.6819 12.659 26.8443C12.8104 27.0066 12.9928 27.1371 13.1954 27.228C13.398 27.3189 13.6168 27.3683 13.8387 27.3735C14.0607 27.3787 14.2815 27.3395 14.4881 27.2581C14.6948 27.1768 14.883 27.055 15.0419 26.8998L19.9186 22.3548L24.4653 27.2315C24.6121 27.4003 24.7914 27.5379 24.9924 27.6359C25.1935 27.734 25.4123 27.7905 25.6357 27.8022C25.8591 27.8139 26.0826 27.7805 26.2929 27.704C26.5031 27.6275 26.6958 27.5095 26.8594 27.3569C27.0231 27.2044 27.1543 27.0204 27.2453 26.816C27.3364 26.6117 27.3853 26.3911 27.3893 26.1674C27.3933 25.9437 27.3522 25.7215 27.2684 25.514C27.1847 25.3066 27.0601 25.1181 26.9019 24.9598L22.3569 20.0832L27.2336 15.5365Z" fill="#222222"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.66699 19.9998C1.66699 9.87484 9.87533 1.6665 20.0003 1.6665C30.1253 1.6665 38.3337 9.87484 38.3337 19.9998C38.3337 30.1248 30.1253 38.3332 20.0003 38.3332C9.87533 38.3332 1.66699 30.1248 1.66699 19.9998ZM20.0003 34.9998C18.0305 34.9998 16.08 34.6119 14.2601 33.858C12.4402 33.1042 10.7866 31.9993 9.39372 30.6064C8.00084 29.2136 6.89595 27.56 6.14213 25.7401C5.38831 23.9202 5.00033 21.9697 5.00033 19.9998C5.00033 18.03 5.38831 16.0795 6.14213 14.2596C6.89595 12.4397 8.00084 10.7861 9.39372 9.39324C10.7866 8.00036 12.4402 6.89546 14.2601 6.14164C16.08 5.38782 18.0305 4.99984 20.0003 4.99984C23.9786 4.99984 27.7939 6.58019 30.6069 9.39324C33.42 12.2063 35.0003 16.0216 35.0003 19.9998C35.0003 23.9781 33.42 27.7934 30.6069 30.6064C27.7939 33.4195 23.9786 34.9998 20.0003 34.9998Z" fill="#222222"/>
+            </svg></div>
         <div class="container">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item"><a class="nav-link with-logo" href="#"><span class="img-logo"><img src="/images/phone.svg" alt="phone"></span>08134-4340-6633</a></li>
                 <li class="nav-item"><a class="nav-link with-logo" href="#"><span class="img-logo"><img src="/images/mail.svg" alt="phone"></span>Kelasvakansi@gmail.com</a></li>
             </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-lg-flex">
                 <li class="nav-item"><a href="#" class="mx-2"><img src="/images/ig.svg" alt="Intagram"></a></li>
                 <li class="nav-item"><a href="#" class="mx-2"><img src="/images/fb.svg" alt="Facebook"></a></li>
                 <li class="nav-item"><a href="#" class="mx-2"><img src="/images/yt.svg" alt="Youtube"></a></li>
@@ -48,15 +52,33 @@
                 </div>
                 <div class="fs-24 lh-normal ms-1 lav text-primary">KELAS<br>VAKANSI</div>
             </a>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#destination">Destination</a></li>
-                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destination">Destination</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+
+    <nav class="d-flex d-lg-none navbar navbar-expand-lg navbar-dark bg-dark flex-column justify-content-center">
+        <div class="container">
+            <a class="navbar-brand lav d-flex" href="#">
+                <div class="d-flex justify-content-center flex-column">
+                    <img src="/images/logo2.png" alt="PNG" width="62px" height="51px">
+                </div>
+                <div class="fs-24 lh-normal ms-1 lav text-primary">KELAS<br>VAKANSI</div>
+            </a>
+          <button class="navbar-toggler" id="nav-toggle" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+                <path d="M13.7497 16.0415H25.208C25.8158 16.0415 26.3987 16.2829 26.8285 16.7127C27.2582 17.1425 27.4997 17.7254 27.4997 18.3332C27.4997 18.941 27.2582 19.5239 26.8285 19.9536C26.3987 20.3834 25.8158 20.6248 25.208 20.6248H13.7497C13.1419 20.6248 12.559 20.3834 12.1292 19.9536C11.6995 19.5239 11.458 18.941 11.458 18.3332C11.458 17.7254 11.6995 17.1425 12.1292 16.7127C12.559 16.2829 13.1419 16.0415 13.7497 16.0415ZM29.7913 34.3748H41.2497C41.8575 34.3748 42.4404 34.6163 42.8701 35.046C43.2999 35.4758 43.5413 36.0587 43.5413 36.6665C43.5413 37.2743 43.2999 37.8572 42.8701 38.287C42.4404 38.7167 41.8575 38.9582 41.2497 38.9582H29.7913C29.1836 38.9582 28.6007 38.7167 28.1709 38.287C27.7411 37.8572 27.4997 37.2743 27.4997 36.6665C27.4997 36.0587 27.7411 35.4758 28.1709 35.046C28.6007 34.6163 29.1836 34.3748 29.7913 34.3748ZM13.7497 25.2082H41.2497C41.8575 25.2082 42.4404 25.4496 42.8701 25.8794C43.2999 26.3092 43.5413 26.892 43.5413 27.4998C43.5413 28.1076 43.2999 28.6905 42.8701 29.1203C42.4404 29.5501 41.8575 29.7915 41.2497 29.7915H13.7497C13.1419 29.7915 12.559 29.5501 12.1292 29.1203C11.6995 28.6905 11.458 28.1076 11.458 27.4998C11.458 26.892 11.6995 26.3092 12.1292 25.8794C12.559 25.4496 13.1419 25.2082 13.7497 25.2082Z" fill="#D4C19B"/>
+                </svg>
+          </button>
+        </div>
+      </nav>
 
     <!-- Header -->
     <section id="home" class="header-section d-flex flex-column justify-content-center" style="background-image: url('/images/Hero.png');">
@@ -948,6 +970,14 @@
         })
         $(".prev-blog").click(()=>{
             $(".owl-blog").trigger('prev.owl.carousel')
+        })
+
+        $("#nav-toggle").click(()=>{
+            $(".navbar.navbar-dark.bg-dark").toggleClass("active")
+        })
+
+        $(".nav-close").click(function(){
+            $(".navbar.navbar-dark.bg-dark").removeClass("active")
         })
     </script>
   </body>
