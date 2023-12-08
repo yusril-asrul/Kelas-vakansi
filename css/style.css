@@ -899,6 +899,16 @@ letter-spacing: 0.8px;
     align-items: center;
 }
 
+.header-content .content .title2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
 .header-content .content .title {
     color: #FFF;
     text-align: center;
@@ -907,6 +917,9 @@ letter-spacing: 0.8px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.8px;
+}
+.header-content .content .subtitle.mw-det {
+    max-width: unset;
 }
 .header-content .content .subtitle {
     color: #FFF;
@@ -918,6 +931,10 @@ letter-spacing: 0.8px;
     line-height: normal;
     letter-spacing: 1.8px;
     max-width: 366px;
+}
+
+.m-section .title.ssp {
+    font-family: sspBold;
 }
 
 
